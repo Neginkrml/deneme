@@ -4,68 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <header>
-
-    </header>
-    
-    <main>
-        <!--Flexbox-->
-        <!-- <div>test</div>
-        <section class="box">
-            <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus ullam quidem, corrupti nemo autem reiciendis voluptates veniam ut minus et blanditiis voluptatum repellat molestiae, dignissimos fuga enim! Voluptatem voluptatum delectus quidem, accusamus, facere vel exercitationem quae quaerat odit mollitia nemo ea. In doloribus eius est voluptas blanditiis, odio dicta consequuntur, quidem veniam molestiae cupiditate eum commodi porro quam fuga ipsum deleniti quis mollitia, dolorem molestias! Eaque voluptatibus expedita, enim labore possimus quam quibusdam rem quaerat, tempora, illum suscipit necessitatibus voluptates corrupti harum consequuntur. Maxime adipisci odit commodi libero quos voluptate blanditiis laborum ab! Excepturi nulla, atque delectus reiciendis dolore deserunt.
-            </p>
-        </section>
-        <div>test1</div>
-
-        <div class="div1">
-            content box özelliği
+    <h1>Kullanıcı formu</h1>
+    <form>
+        <div class="border">
+            <div>
+                <label for="firstname">İsim</label>
+                <input id="firstname" type="text" name="firstname" placeholder="İsminizi yazınız" required>
+            </div>
+            <div>
+                <label for="lastname">Soyadı</label>
+                <input id="lastnamee" type="text" name="lastname" placeholder="Soyadınızı yazınız" required autofocus>
+            </div>
+            <div>
+                <label for="age">Yaş</label>
+                <input id="age" type="number" name="age" placeholder="Yaşınızı yazınız" required>
+            </div>
+            <div>
+                <label for="email">Yaş</label>
+                <input id="email" type="email" name="email" placeholder="Email yazınız" required>
+            </div>
+            <div>
+                <textarea name="textarea" rows="5" placeholder="Açıklama giriniz"></textarea>
+            </div>
+            <div>
+                <select name="size">
+                    <option value="xs">Extra Small</option>
+                    <option value="s">Small</option>
+                    <option value="m" selected>Medium</option>
+                    <option value="l">Large</option>
+                </select>
+            </div>
+            <div>
+                <select name="month">
+                    <optgroup label="Summer">
+                      <option value="s6">June</option>
+                      <option value="s7">July</option>
+                      <option value="s8">August</option>
+                    </optgroup>
+                  
+                    <optgroup label="Autumn">
+                      <option value="s9">September</option>
+                      <option value="s10">October</option>
+                      <option value="s11">November</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="gender" value="erkek" required>
+                    Erkek
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="kadın" required>
+                    Kadın
+                </label>
+            </div>
         </div>
-        <div class="div2">
-            border box özelliği
-        </div>
-        <div class="div3">
-            radius özellikleri
-        </div>
-        
-        <div class="frame">
-            border çerçeve özelliği
-        </div>
-
-        <div class="image">
-            <img width="180px" src="./images/image.png" alt="">
-        </div> -->
-
-        <!-- <div class="maxWidth">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, facere sunt doloremque commodi, ipsum illum impedit, ipsa reiciendis nam voluptas ad! Deserunt, voluptates consequatur officia maxime impedit et quas mollitia quibusdam quos quaerat quam. Saepe aliquid molestias sed in voluptatem voluptate. Eveniet voluptas iusto in velit expedita qui optio quisquam voluptatem deserunt vero, non ipsa quia. Et quaerat ab ea, mollitia optio ullam dicta tempore accusantium, voluptatum aut cum earum esse cumque at quae fugit laboriosam. Alias dignissimos laborum recusandae corporis deserunt cupiditate, reiciendis mollitia totam blanditiis expedita ipsa consequuntur iusto facilis iure aliquam nihil! Aut quasi nemo deserunt nobis blanditiis, quidem cumque libero molestias a iste illo est ut corrupti, corporis consequatur repellendus officiis possimus, tempore consectetur eveniet quod consequuntur error maiores. Vero eos illo sunt similique quos ex facere laudantium consequuntur cum, sed quis nihil exercitationem eligendi repellat! Placeat eum voluptatem doloribus doloremque quos pariatur consequatur, repellendus, impedit eveniet, ipsam eligendi laudantium dolore error. Similique dicta consectetur ab possimus magni nostrum, quisquam natus enim cupiditate nulla, harum, corporis dolor qui quos provident beatae unde. Esse soluta a veniam odio. Illum inventore id maxime doloremque accusantium non fugiat recusandae nemo, aliquid tempora, tempore aut iste numquam commodi, sequi veritatis.</p>
-
-        </div> -->
-
-        <!-- blok element
-        <div>deneme</div>
-        <div>deneme1</div>
-        <p>deneme2</p>
-
-       blok olmayan element
-        <span>span</span>
-        <span>span</span> -->
-    <ul class="list">
-        <li class="list-item">1</li>
-        <li class="list-item">2</li>
-        <li class="list-item">3</li>
-        <li class="list-item">4</li>
-        <li class="list-item">5</li>
-        <li class="list-item">6</li>
-        <li class="list-item">7</li>
-        <li class="list-item">8</li>
-        <li class="list-item">9</li>
-        <li class="list-item">10</li>
-    </ul>
-    </main>
+    </form> 
 </body>
 </html>
+   
